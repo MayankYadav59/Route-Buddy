@@ -12,7 +12,7 @@ var app = express();
 
 require("./config/passport")(passport);
 
-mongoose.connect('mongodb+srv://araj:araj@cluster0.flwcc.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://qwert:qwerty@cluster0.flwcc.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     dbName: 'CabSharing02'
